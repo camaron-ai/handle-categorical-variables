@@ -1,0 +1,32 @@
+name: hndl-cat
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+  - plotly
+  - anaconda
+dependencies:
+  - jupyter
+  - pyarrow
+  - python=3.9
+  - pip=21.0.1
+  - pytorch
+  - matplotlib
+  - pandas=1.5.2
+  - numpy=1.24.0
+  - scikit-learn=1.1.2
+  - joblib
+  - tqdm=4.60.0
+  - seaborn
+  - pytorch-lightning
+  - yaml
+  - mamba
+  - pip:
+    - typer[all]
+    - coloredlogs
+    - mlflow==1.28.0
+    - flask==2.1.3
+    - pytest
+    - xgboost
+    - omegaconf
+    - ray
